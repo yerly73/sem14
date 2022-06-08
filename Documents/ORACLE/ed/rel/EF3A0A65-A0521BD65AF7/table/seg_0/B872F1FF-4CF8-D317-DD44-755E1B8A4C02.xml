@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B872F1FF-4CF8-D317-DD44-755E1B8A4C02" name="TURNO">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:41:08 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Turno" id="D69FE6D3-8292-EB19-B29E-D8100AC0C54F">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:42:02 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Turno" id="69E03E9F-1316-A8C4-7D62-059C1C0F925F">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:52:47 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCENTES_Id_Docentes" id="48440D62-BE0E-304C-8571-E711E0060520">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<generatorID>D8DD7432-71B3-E6A3-2F6D-98DB08103EE1</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C26E984-DF08-2830-D66A-DBAABEB32373" referredColumn="77EE5B9B-2301-21F5-CE0F-9DE6A1781C4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3473B3EA-1837-4547-A2A7-A0D2D03EFFAD" name="TURNO_PK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:42:02 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D69FE6D3-8292-EB19-B29E-D8100AC0C54F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31DAB4B6-5B1D-1C7C-3294-75EF155A54A2" name="TURNO_DOCENTES_FK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<generatorID>11026815-EF67-39D7-2365-E19A7BCB1BCA</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48440D62-BE0E-304C-8571-E711E0060520"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

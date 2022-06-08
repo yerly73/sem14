@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC949605-EE13-E6C4-21FF-7335D3B269EB" name="CURSO">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:08:48 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Cursos" id="B7C88E79-ECC8-EC0A-04BD-550554983DA4">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:10:52 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Seccion" id="479D4CE6-C468-00CC-EC43-50ADA5878F57">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:15:34 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Docente" id="6D470BD2-4F35-28E4-CC0F-9C21BB5F1EDE">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:19:33 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Turno" id="6B6378DA-6212-114A-FEC0-F5F927A71992">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:25:01 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Curso" id="C3A34FCA-516A-9AF3-EA54-54CB4F5E9A69">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:25:39 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8300307A-1FD2-9F10-5E64-752C6307CDA0" name="CURSO_PK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:15:40 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7C88E79-ECC8-EC0A-04BD-550554983DA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

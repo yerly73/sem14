@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CE1D0C9-820A-CE2B-A999-2392AE20E231" name="ALUMNOS">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-07 23:04:14 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Alumnos" id="79E9ABF3-D8B4-009E-0F00-5EE2FEDB32A7">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-07 23:20:57 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Seccion" id="093A6894-B790-B5B0-3DAE-753A0E4DC227">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-07 23:33:02 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="CE676984-7678-1E0C-059A-0E3B91BF8D82">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-07 23:50:08 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellidos" id="44CF036A-B792-D8B5-DA5C-CF0F15D974BB">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-07 23:50:41 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dni" id="C17BB0FE-D95B-07D8-32B7-C3E83F4CB8DF">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-07 23:51:09 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Matricula" id="10C31A48-F18F-D92C-AECE-B72F146F92BD">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-07 23:53:07 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECCION_Id_Seccion" id="493890A4-F53D-441B-44F4-F16DCB5D4865">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<generatorID>F7AAD396-36B9-B617-43A6-BF1D4B62ECCA</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A643754-CC19-1E5C-599F-C32E783AAA49" referredColumn="70A1877A-326B-DEBF-8855-0146D0550ACA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C4DD2A6-9367-163B-537D-DB748C3FEA28" name="ALUMNOS_PK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-07 23:20:57 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79E9ABF3-D8B4-009E-0F00-5EE2FEDB32A7"/>
+<colUsage columnID="493890A4-F53D-441B-44F4-F16DCB5D4865"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F54A26F2-7899-8F47-08EB-5401D7551211" name="ALUMNOS_SECCION_FK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<generatorID>7896E1CC-C685-013E-E5F0-80194ADE9435</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="493890A4-F53D-441B-44F4-F16DCB5D4865"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

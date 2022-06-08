@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39D5F3DF-DD89-F31C-4845-EEFC8B5A07D8" name="Relation_Seccion_curso">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SECCION_Id_Seccion" id="A61F37FE-BF36-9A83-1949-5722C564728E">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE4C84FF-2F6A-12DD-3086-302CC13AA713" referredColumn="70A1877A-326B-DEBF-8855-0146D0550ACA"/>
+</associations>
+</Column>
+<Column name="CURSO_Id_Cursos" id="BC1CBD76-7338-B931-054D-401E68C51FC4">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C3E09A0-A05F-08A6-940A-D147364CDE90" referredColumn="B7C88E79-ECC8-EC0A-04BD-550554983DA4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07B2317C-5A31-4B0B-F067-C402AD09ECDB" name="Relation_Seccion_curso_PK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A61F37FE-BF36-9A83-1949-5722C564728E"/>
+<colUsage columnID="BC1CBD76-7338-B931-054D-401E68C51FC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67FEF9A7-873A-B720-DA53-A280672FAC8B" name="Relation_Seccion_curso_SECCION_FK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<generatorID>0DD4BB2E-E9B8-77FB-A8B2-5611965231DB</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A61F37FE-BF36-9A83-1949-5722C564728E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DF35F4E-5341-26A3-D09B-3756FB32D1B5" name="Relation_Seccion_curso_CURSO_FK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<generatorID>0DD4BB2E-E9B8-77FB-A8B2-5611965231DB</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC1CBD76-7338-B931-054D-401E68C51FC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6DC09F21-22F3-E6C1-03CC-EE5BCD639931" name="TRASLADO">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 02:00:12 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id traslado" id="5C376240-13CC-1D89-4046-36FF4A915DB8">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 02:00:23 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Alumnos" id="383C7A47-5F3F-F594-906A-E9AE0BCFD98D">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 02:11:45 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Seccion" id="0939E3F6-A721-CE41-8206-15550A2E31F2">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 02:12:16 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Traslado" id="A91DB856-29AB-B848-9763-6E26E8C99C3D">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 02:13:37 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sucursal Inicio" id="8E549EB2-B392-AE99-456D-5B3F7BFDFE66">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 02:15:48 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sucursal Actual" id="E22B2C67-19E7-789E-39A4-93624876D4CA">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 02:18:01 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Alumnos1" id="63755364-D775-33CA-14FC-197AA7316A35">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 02:23:04 UTC</createdTime>
+<generatorID>F449B437-CAE1-B8AA-3B30-AC8CE3706439</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<referedAttribute>58767DBC-14D8-A77D-05D5-92BE1643D14A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SECCION Id Seccion" id="C82D0590-EB5F-F256-9462-23442D329B51">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 02:23:04 UTC</createdTime>
+<generatorID>F449B437-CAE1-B8AA-3B30-AC8CE3706439</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<referedAttribute>F7AAD396-36B9-B617-43A6-BF1D4B62ECCA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A68DED80-0FEE-B226-8C11-571FF058D629" name="TRASLADO PK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 02:00:48 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C376240-13CC-1D89-4046-36FF4A915DB8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

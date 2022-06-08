@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54F811ED-E47D-A4C2-322D-5533FDD4E112" name="SUCURSAL">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:26:32 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Sucursal" id="A34AE0CA-4EAB-9AC7-7F5A-07D401A99B06">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:27:30 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sede" id="AA12505D-65A4-0F35-28B9-D7BD7E987FE7">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:38:28 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCENTES_Id_Docentes" id="9DA3FC44-4D4B-EBB0-F526-EA9FAB04426E">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<generatorID>F1C38BBE-616B-FB7B-5A45-B21C130C95E8</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B06778C-1195-B49F-9CDC-8DD47E0D8BC0" referredColumn="77EE5B9B-2301-21F5-CE0F-9DE6A1781C4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1A7DCE7-B993-6FD5-440D-BFB8628B7CCC" name="SUCURSAL_PK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 00:27:32 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A34AE0CA-4EAB-9AC7-7F5A-07D401A99B06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5831F95C-2465-C7C6-D330-16DAF3251990" name="SUCURSAL_DOCENTES_FK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<generatorID>4BA03CF0-39D1-D561-5BD8-1464FED4A25F</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DA3FC44-4D4B-EBB0-F526-EA9FAB04426E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

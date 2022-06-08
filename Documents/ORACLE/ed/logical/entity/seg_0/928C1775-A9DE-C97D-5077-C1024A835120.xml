@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="928C1775-A9DE-C97D-5077-C1024A835120" name="NOTAS">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>698F175C-72DB-22C6-3F49-00D9D938C27E</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id notas" id="28ECF2BE-1E63-DE22-7BCA-D4D70E92D8CB">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>F1DA57EE-7F39-0BAB-FAF1-62FA605B6DBC</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Alumno" id="C9A1454A-FA19-4BBB-8919-C740463EF873">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>D2E02D11-5C9A-547A-47E3-D6BC4E010EFB</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Curso" id="65A08B4C-D044-AC91-2999-B21BDE12E4A5">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>627234B0-0732-80A5-7113-5FF77709EEEB</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nota 1Bimestre" id="815DEDBD-A844-FBD3-6426-18FA20D75269">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>11A4A5A7-CC11-D84F-2AC1-416A3520E45A</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nota 2Bimestre" id="BCBB257E-FFB8-52F4-4DC9-C2E2F405ECDD">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>F2F718F5-57C1-5E24-1419-7B1DB7A3D3F2</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nota 3Bimestre" id="AD5D1FBB-596C-ED1C-E11F-BC6EE566C85B">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>D020FB23-69C5-06FB-404C-9AE01D505214</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nota 4Bimestre" id="83929A77-C39B-34B5-7EF5-469AFAFB0E22">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>AE0C2289-1EDB-6457-F61A-69EF6C53F70F</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Promedio Final" id="5CB1B8AB-FECC-A9A5-FDBA-9CB157E6F1D4">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>35463741-EA64-9E77-0882-4A0CCB6102D6</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ALUMNOS Id Alumnos" id="24316166-93F6-3AF0-320A-6D4B28840A75">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:32:50 UTC</createdTime>
+<generatorID>FC06DF02-60E1-996F-6343-DBAAFC6F3744</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<referedAttribute>58767DBC-14D8-A77D-05D5-92BE1643D14A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ALUMNOS Id Seccion1" id="DC194BCB-FE0F-3182-C764-B1E4DC855A6E">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:34:18 UTC</createdTime>
+<generatorID>FC06DF02-60E1-996F-6343-DBAAFC6F3744</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<referedAttribute>F7AAD396-36B9-B617-43A6-BF1D4B62ECCA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5F240D9-EAE9-F580-97F0-562F931908BF" name="NOTAS PK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>C3BAD840-A0D2-FF27-5CB2-2CD965181A11</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28ECF2BE-1E63-DE22-7BCA-D4D70E92D8CB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

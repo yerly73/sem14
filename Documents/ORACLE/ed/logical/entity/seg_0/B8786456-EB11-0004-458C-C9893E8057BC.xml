@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8786456-EB11-0004-458C-C9893E8057BC" name="CURSO">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>EC949605-EE13-E6C4-21FF-7335D3B269EB</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id Cursos" id="25CB208D-3555-3D74-B753-8576BEDD689F">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>B7C88E79-ECC8-EC0A-04BD-550554983DA4</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Seccion" id="CD2AD5FB-7B9B-AE59-932A-21A92A4D8D13">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>479D4CE6-C468-00CC-EC43-50ADA5878F57</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Docente" id="A960B8C4-E35B-D052-00E1-F266D277DADF">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>6D470BD2-4F35-28E4-CC0F-9C21BB5F1EDE</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Turno" id="B5D0F71F-7B68-2201-830A-0B2B8ECFE0AF">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>6B6378DA-6212-114A-FEC0-F5F927A71992</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Curso" id="DB224BFB-97CC-A466-1E4A-B572D79FFB12">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>C3A34FCA-516A-9AF3-EA54-54CB4F5E9A69</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3546531-38F2-C0EF-B235-26CD2DCD9916" name="CURSO PK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>8300307A-1FD2-9F10-5E64-752C6307CDA0</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25CB208D-3555-3D74-B753-8576BEDD689F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

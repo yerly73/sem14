@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="698F175C-72DB-22C6-3F49-00D9D938C27E" name="NOTAS">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:03:05 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_notas" id="F1DA57EE-7F39-0BAB-FAF1-62FA605B6DBC">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:05:29 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Alumno" id="D2E02D11-5C9A-547A-47E3-D6BC4E010EFB">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:07:06 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Curso" id="627234B0-0732-80A5-7113-5FF77709EEEB">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:09:12 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nota_1Bimestre" id="11A4A5A7-CC11-D84F-2AC1-416A3520E45A">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:09:34 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nota_2Bimestre" id="F2F718F5-57C1-5E24-1419-7B1DB7A3D3F2">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:11:06 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nota_3Bimestre" id="D020FB23-69C5-06FB-404C-9AE01D505214">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:11:41 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nota_4Bimestre" id="AE0C2289-1EDB-6457-F61A-69EF6C53F70F">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:13:10 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Promedio_Final" id="35463741-EA64-9E77-0882-4A0CCB6102D6">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:13:57 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALUMNOS_Id_Alumnos" id="CBC329C9-0166-612C-D337-A8F4994FCED4">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<generatorID>24316166-93F6-3AF0-320A-6D4B28840A75</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23E6395F-D4AC-EBE8-1095-C101C7671066" referredColumn="79E9ABF3-D8B4-009E-0F00-5EE2FEDB32A7"/>
+</associations>
+</Column>
+<Column name="ALUMNOS_Id_Seccion1" id="7DB1A908-F1A5-D6E4-0D80-F12455AE5CF0">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<generatorID>DC194BCB-FE0F-3182-C764-B1E4DC855A6E</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23E6395F-D4AC-EBE8-1095-C101C7671066" referredColumn="493890A4-F53D-441B-44F4-F16DCB5D4865"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3BAD840-A0D2-FF27-5CB2-2CD965181A11" name="NOTAS_PK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:05:29 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1DA57EE-7F39-0BAB-FAF1-62FA605B6DBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3E652C2-9098-98F3-C414-F2C7EC2C70DB" name="NOTAS_ALUMNOS_FK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:49:26 UTC</createdTime>
+<generatorID>FC06DF02-60E1-996F-6343-DBAAFC6F3744</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBC329C9-0166-612C-D337-A8F4994FCED4"/>
+<colUsage columnID="7DB1A908-F1A5-D6E4-0D80-F12455AE5CF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

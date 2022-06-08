@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_Seccion_curso" directorySegmentName="seg_0" id="0DD4BB2E-E9B8-77FB-A8B2-5611965231DB">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:46:15 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>283EEAEC-CEF4-99F0-9056-9FC9F273A6A6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B8786456-EB11-0004-458C-C9893E8057BC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

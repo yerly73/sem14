@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ALUMNOS SECCION FK" directorySegmentName="seg_0" id="7896E1CC-C685-013E-E5F0-80194ADE9435">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:34:18 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<sourcePk>EF5D1758-74C3-2AE2-6363-9B538221363A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>283EEAEC-CEF4-99F0-9056-9FC9F273A6A6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>28013C19-EC19-F8BF-A8F1-8FD4BA6798C6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9CD4C78-C657-112D-960C-D6A498969FE0" name="DOCENTES">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>E32E91D2-7BCF-34C4-06A0-FFB022C75C6D</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id Docentes" id="2C667C81-8B11-B55E-9581-858902AB5DBA">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>77EE5B9B-2301-21F5-CE0F-9DE6A1781C4D</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="8A9DDBEC-4946-7D36-2F39-C457B7515EA1">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>F9C1529F-C1B6-2BC3-64BD-C75E068D3AE9</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="5A2B9C89-15DB-5363-37EF-F79AB073B8D0">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>F62417FB-767A-C99E-E190-4A3E785F7F37</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dni" id="406FF94E-C47C-4081-5048-6443FD8227A6">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>83D65D01-98D1-2F37-01AA-C251C5FE0EF3</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Tutor" id="FD466D55-FD3A-7828-F92F-5ED635F865C1">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>344D35BF-2746-69FF-90FB-550BFD50CB3D</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipos" id="36734E18-4451-1C1D-8EAC-9011EABF5CEF">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:42:10 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76271D4C-E46A-66E6-A254-D64EFC4CD74C" name="DOCENTES PK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>FE2B34E8-93A4-0D4C-CF18-98474B0F0C60</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C667C81-8B11-B55E-9581-858902AB5DBA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

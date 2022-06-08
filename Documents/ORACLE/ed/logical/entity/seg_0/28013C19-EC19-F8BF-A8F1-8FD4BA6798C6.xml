@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28013C19-EC19-F8BF-A8F1-8FD4BA6798C6" name="ALUMNOS">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>5CE1D0C9-820A-CE2B-A999-2392AE20E231</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id Alumnos" id="58767DBC-14D8-A77D-05D5-92BE1643D14A">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>79E9ABF3-D8B4-009E-0F00-5EE2FEDB32A7</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Seccion" id="90D939A7-C70C-654E-9C18-6545A0195AF6">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>093A6894-B790-B5B0-3DAE-753A0E4DC227</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="78B888E9-F094-939D-997A-718F84EF72A5">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>CE676984-7678-1E0C-059A-0E3B91BF8D82</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="5DDA8D35-F1FD-E6AD-7EE6-2AEB306CCFD7">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>44CF036A-B792-D8B5-DA5C-CF0F15D974BB</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dni" id="3ED35ADA-AB26-92CE-3E2A-FDD2BE848A2B">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>C17BB0FE-D95B-07D8-32B7-C3E83F4CB8DF</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Matricula" id="B7E7FA5D-97F2-F4EB-207E-D7DE557644E7">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>10C31A48-F18F-D92C-AECE-B72F146F92BD</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SECCION Id Seccion" id="F7AAD396-36B9-B617-43A6-BF1D4B62ECCA">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:34:18 UTC</createdTime>
+<generatorID>7896E1CC-C685-013E-E5F0-80194ADE9435</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<referedAttribute>095AB8F9-64C2-C44F-020F-B5B5E9848247</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Sucursal" id="DDAB211C-4983-4CD7-1299-E6B612C8D2A4">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:56:19 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id Sucursal1" id="FF3B3D14-53EB-76AF-0131-107A1702C3B8">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:57:29 UTC</createdTime>
+<generatorID>833D3323-D4A1-4375-5E25-5C77A348E23D</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<referedAttribute>813A5E1C-A238-DB4D-542C-C790CEB94CD7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B918539D-10F0-E6AE-B59C-7464B51A0057" name="ALUMNOS_PK">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:31:38 UTC</createdTime>
+<generatorID>9C4DD2A6-9367-163B-537D-DB748C3FEA28</generatorID>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>58767DBC-14D8-A77D-05D5-92BE1643D14A</attributeRef>
+<attributeRef>F7AAD396-36B9-B617-43A6-BF1D4B62ECCA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

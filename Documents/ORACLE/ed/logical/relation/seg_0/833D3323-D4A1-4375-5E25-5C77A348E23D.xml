@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_Sucursal_Alumno" directorySegmentName="seg_0" id="833D3323-D4A1-4375-5E25-5C77A348E23D">
+<createdBy>YERLY</createdBy>
+<createdTime>2022-06-08 01:57:29 UTC</createdTime>
+<ownerDesignName>ed</ownerDesignName>
+<engineerTo>
+<item key="EF3A0A65-E1EA-7673-7FC0-A0521BD65AF7" value="true"/>
+</engineerTo>
+<sourcePk>6D72FE49-BE47-5FCA-2285-40F0A6BA6ACC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C5892ABB-5E2B-D826-668E-887F747CC7C9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>28013C19-EC19-F8BF-A8F1-8FD4BA6798C6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
